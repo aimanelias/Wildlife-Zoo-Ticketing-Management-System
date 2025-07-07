@@ -40,21 +40,6 @@ The Wildlife Zoo Ticketing Management System is a web-based application designed
 
 > Ensure Apache Derby is running and the `wildlife` database is created with the required tables (CUSTOMER, STAFF, ADMIN, ANIMAL, TICKET).
 
-## Setup Instructions
-1. **Clone the Repository**
-   ```
-   git clone <repository-url>
-   ```
-2. **Database**
-   - Start Apache Derby server.
-   - Create the `wildlife` database and tables as per the data models.
-3. **Build and Deploy**
-   - Use NetBeans or any compatible IDE.
-   - Open the project and build using the provided `build.xml` (Ant script).
-   - Deploy to a servlet container (e.g., Apache Tomcat, GlassFish).
-4. **Access the Application**
-   - Open a browser and navigate to the deployed application's URL (e.g., `http://localhost:8080/WildlifeZooTicketingManagementSystem/web/index.jsp`).
-
 ## Usage
 - **Home Page**: Select user type (Staff or Customer) to login.
 - **Admin Panel**: Access via Admin login (URL or login page).
